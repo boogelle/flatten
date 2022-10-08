@@ -16,8 +16,8 @@ def flatten(seq: Any,
     :param seq: data to flatten
     :param flatten_strings: whether to flatten strings (bytestrings) as any other sequence
     :param mapping_action: specifies what to do with mappings in the data, allowed values are:
-        'drop'   - remove mappings from the result,
-        'keep'   - pass mappings to the result unchanged,
+        'drop' - remove mappings from the result,
+        'keep' - pass mappings to the result unchanged,
         'flatten_values' - flatten only mappings' values,
         'flatten_items'  - flatten both mappings' keys and values
     :return: generator with flattened data
