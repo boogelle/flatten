@@ -50,4 +50,4 @@ By default mappings are removed from the result. However, mappings may be proces
 Works with generators and custom types that support [python collections ABCs' interfaces](https://docs.python.org/3/library/collections.abc.html#collections-abstract-base-classes) (Iterable, Mapping).
 
 ### 5. Even more
-Never actually tested with real-world strings (emojis, encodings, languages, etc). Never tested in asynchronous code.
+Never tested with real-world strings (emojis, encodings, languages, etc). Never tested in asynchronous code.
