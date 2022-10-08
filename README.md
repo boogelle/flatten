@@ -20,7 +20,7 @@ By default strings are treated as values. Also strings may be flattened into cha
 ```
 
 ### 3. Mappings
-By default mappings are removed from the result. However, mappings may be processed in four different manners.
+By default mappings are removed from the result. However, mappings may be processed in four different manners: `drop` - remove mappings from the result, `keep` - pass mappings to the result unchanged, `flatten_values` - flatten only mappings' values, `flatten_items` - flatten both mappings' keys and values.
 ```
 >>> x = {1: 'qwe', 2: [{'a': ('asd', 'asdf')}, 'zxc']}
 >>> list(flatten(x, mapping_action='drop'))
